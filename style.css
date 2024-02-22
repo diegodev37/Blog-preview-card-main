@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: "Roboto Condensed", sans-serif;
+
+
+
+}
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    width: 100vh;
+
+}
+
+main {
+    width: 355px;
+    height: 460px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 50%;
+    border-radius: 10px;
+    border: solid 1px;
+    box-shadow: 12px 12px 0px 0px;
+    margin-top: 60px;
+}
+
+.img {
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
+
+button {
+    margin-left: 25px;
+    color: black;
+    background: hsl(47, 88%, 63%);
+    font-weight: 800;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    width: 80px;
+}
+
+h1 {
+    color: hsl(0, 0%, 3%);
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+
+}
+
+
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 50%);
+    text-align: start;
+    margin-left: 25px;
+
+    margin-top: 10px;
+}
+
+.um {
+    color: hsl(0, 0%, 7%);
+}
+
+img {
+    width: 30px;
+    margin-left: 25px;
+    margin-top: 30px;
+
+
+}
+
+picture {
+    font-weight: 800;
+    font-size: 12px;
+}
+
+@media(max-width:1100px){
+    main {
+       width: 320px;
+       margin: 200px 70px;
+       border-radius: 20px;
+       height: 470px;
+    }
+
+    .img {
+        margin-top: 10px;
+        width: 300px;
+    }
+    h1{
+        font-size: 16px;
+        font-weight: 900;
+    }
+ p {
+    font-size: 13px;
+ }
+
+ 
+
+}
+  
