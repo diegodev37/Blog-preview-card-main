@@ -1,4 +1,4 @@
-<h1>Blog Preview.card.main.</h1>
+<h1>Blog Preview.card.main</h1>
 
 <br>
 <br>
